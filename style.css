@@ -1,0 +1,67 @@
+*{
+    font-family: 'Mansalva';
+    text-align: center;
+    margin:0;
+    padding:0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background: url('images\ \(48\).jpeg');
+    color: #d7ddee;
+    display: flex;
+}
+
+.container {
+    width: 600px;
+    height: 500px;
+    background-image: url('images\ \(47\).jpeg');
+    border-radius: 10px;
+    opacity: 0.9;
+    box-shadow: 15px 15px 17px #7687b9;
+}
+.header{
+    line-height: 50px;
+}
+
+
+.h2 {
+    height: 45px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+p{
+    font-family: serif;
+    font-size: 20px;
+    
+}
+input{
+    width: 50%;
+    line-height: 30px;
+    border-radius: 30px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    color: gray;
+    background-color: #dfe7fc;
+}
+
+
+#animated{
+animation-name: move;
+animation-duration: 5s;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+}
+a.button{
+    cursor:pointer;
+    color:#2b3242;
+    background-image:linear-gradient(#b9bec9, #d7dce9)
+}
